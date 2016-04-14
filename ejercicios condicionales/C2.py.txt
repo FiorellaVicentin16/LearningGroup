@@ -1,0 +1,16 @@
+num1 = input("Ingrese el 1er Numero:")
+num2 = input("Ingrese el 2do Numero:")
+num3 = input("Ingrese el 3er Numero:")
+
+prom = float((num1 + num2 + num3)/ 3)
+
+if num1 >= prom:
+	print "El Valor:",num1,"es mayor o igual que el Promedio:",prom
+
+if num2 >= prom:
+	print "El Valor:",num2,"es mayor o igual que el Promedio:",prom
+
+if num3 >= prom:
+	print "El Valor:",num3,"es mayor o igual que el Promedio:",prom
+
+	

@@ -1,0 +1,16 @@
+edad = int(input("Ingrese la Edad actual de la persona:"))
+ant = int(input("Ingrese la Antiguedad de la persona:"))
+
+print ""
+print "----------------------------------------"
+print "            JUBILACION TIPO: "
+
+if edad >= 60 and ant < 25:
+	print "                 POR EDAD"
+elif edad >= 60 and ant >= 25:
+	print "          POR ANTIGUEDAD ADULTA"
+elif edad <60 and ant >= 25:
+	print "          POR ANTIGUEDAD JOVEN"
+
+
+print "----------------------------------------"			
