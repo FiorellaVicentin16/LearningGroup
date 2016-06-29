@@ -1,0 +1,29 @@
+{{extend 'layout.html'}}
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/GuiArtec/static/css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'> <!-- Fuente Titulo-->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300italic' rel='stylesheet' type='text/css'><!--Fuente Eslogan-->
+	<link href='https://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'><!--Fuente Nave-->
+	<title>AppGuiartec</title>
+</head>
+<body>
+	<nav class="luckiest padding-largo se-naranja">
+				<ul>
+					<a href="#" class="margen-derecho piel">Menú</a>
+					<a href="#" class="margen-derecho piel">Colaboradores</a>
+					<a href="#" class="margen-derecho piel">Acerca de</a>
+
+				</ul>
+	</nav>
+      <div class="col-md-12 center-block espacio-arriba text-center">
+		<img src="/GuiArtec/static/images/guiarte.png">
+		<h1 class="josefin grande">GuiarTec</h1>
+		<h4 class="open-sans mediano">Dirigiendo tu Destino Cultural</h4>
+		<button class="btn btn-success btn-lg" type="submit"><a href="navbar.html">Sendero</a></button>	
+	</div>
+</body>
+</html>
+{{=BEAUTIFY(response._vars)}}

@@ -1,0 +1,67 @@
+body{
+	background-color: 
+}
+
+img{
+	max-width:100%; <!-- Me permite determinar el resize de mi img-->
+}
+.espacio-arriba{
+	margin-top:120px;
+}
+.josefin{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.open-sans{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.luckiest{
+	font-family: 'Luckiest Guy', cursive;
+}
+.grande{
+	font-size: 6em;
+	}
+.mediano{
+	font-size: 2em;
+}
+.pequenio{
+	font-size: 1.5em;
+}
+
+.quitar-float{
+	float: none;  <!-- Me ubica dentro de los Layout de bootstrap-->
+}
+.margen-derecho{
+	margin-right: 2em;
+}
+.inline-block{
+	float:none;
+	display: inline-block;
+	margin-right:-4px;	
+}
+.anda-arriba{
+	margin-top: 0px;  <!--vertical-align sirve unicamente cuando esta definido en nuestra class en HTML inline-block-->
+}
+
+.padding-largo{
+	padding: 5px 10px;
+}
+
+.se-naranja{
+	background-color: #C46D3B;
+}
+.piel{
+	color: #E3CBAC;
+}
+.no-lista{
+	margin:0;
+	padding: 0;
+}	
+
+.verde{
+	color:#86FF25;
+}	
+
+img{
+	max-width:50%; <!--Me permite determinar el resize de mi img-->
+
+}
